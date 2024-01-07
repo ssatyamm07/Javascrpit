@@ -13,5 +13,5 @@ function sumOfSomthing(a,b, callback) {
     return val1 + val2;
 }
 
-const ans = sumOfSomthing(2,2, square);
+const ans = sumOfSomthing(2,4, square);
 console.log(ans);
