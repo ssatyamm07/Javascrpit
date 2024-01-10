@@ -11,3 +11,5 @@ const value = kiratAsyncFunction();
 value.then(function(data){
     console.log(data);
 })
+
+//learnt more
