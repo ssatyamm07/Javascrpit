@@ -1,5 +1,5 @@
 const express = require('express');
-function calculate(n) {
+function sum(n) {
     let ans = 0;
     for (i = 0; i <= n; i++) {
         ans = ans + i;
@@ -8,10 +8,10 @@ function calculate(n) {
 }
 
 const app = express();
-app.get('/', function(req, res){
+app.get("/", function(req, res){
     const n = req.query.n;
-    const ans = calculate(n);
-    ans = ans.toString();
+    const ans = sum(n);
+    res.send("this is the sum: " + ans);
 });
 
-app.listen(3000);
+app.listen(3005);
