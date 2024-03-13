@@ -27,7 +27,7 @@ console.log(ans);*/
 
 //if we have to filter some array containg names 
 
-const arr = ["Kelvin","sakshi","Akash","Satyam","Ayush"];
+const arr = ["Kelvin","Sakshi","Akash","Satyam","Ayush"];
 const ans = arr.filter(function (i) {
     if (i.startsWith("S")){
         return true;
