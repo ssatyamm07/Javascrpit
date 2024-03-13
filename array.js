@@ -3,7 +3,7 @@ const genderArray =["female", "male", "male"];
 numberOfUsers = personArray.length;
 
 for(let i =0; i<numberOfUsers; i++){
-    if(genderArray[i]== "fegmale"){
+    if(genderArray[i]== "female"){
         console.log(personArray[i]);
     }
 }
