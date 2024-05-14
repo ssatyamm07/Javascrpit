@@ -36,6 +36,6 @@ Savedata().then(function(data) {
          
          .catch(function(error) {
         console.log("Data is failed to store: " + error);
-
+// promise chaining
 });
      
